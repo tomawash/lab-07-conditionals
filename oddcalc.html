@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, ititial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var number1 = prompt("Please input a number ");
+
+		var number2 = prompt("Please input another number ");
+
+		var op = prompt("What type of operation would you like to do? (mul/div/mod) ");
+
+		if(op === "mul") {
+			console.log(number1 * number2);
+		} else if(op === "div") {
+			console.log(number1 / number2);
+		} else if(op === "mod") {
+			console.log(number1 % number2);
+		} else {
+			console.log("invalid operation");
+		}
+	</script>
+</body>
+</html>
